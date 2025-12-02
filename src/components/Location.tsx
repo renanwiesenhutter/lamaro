@@ -24,9 +24,7 @@ const Location = () => {
               <div>
                 <h3 className="font-heading text-xl font-semibold mb-2">Endereço</h3>
                 <p className="text-muted-foreground">
-                  Rua da Elegância, 123<br />
-                  Centro - São Paulo, SP<br />
-                  CEP 01234-567
+                  Seeburger Straße 20 , Spandau, Berlin, 13581<br />
                 </p>
               </div>
             </div>
@@ -38,8 +36,7 @@ const Location = () => {
               <div>
                 <h3 className="font-heading text-xl font-semibold mb-2">Horário</h3>
                 <p className="text-muted-foreground">
-                  Segunda a Sexta: 9h - 20h<br />
-                  Sábado: 9h - 18h<br />
+                  Segunda a Sábado: 9h - 19h<br />
                   Domingo: Fechado
                 </p>
               </div>
@@ -52,20 +49,25 @@ const Location = () => {
               <div>
                 <h3 className="font-heading text-xl font-semibold mb-2">Contato</h3>
                 <p className="text-muted-foreground">
-                  (11) 98765-4321<br />
-                  contato@barbeariapremiuim.com.br
+                  +49 176 32880002<br />
                 </p>
               </div>
             </div>
 
-            <Button variant="gold" size="lg" className="w-full md:w-auto">
-              AGENDAR AGORA
-            </Button>
+            <a
+              href="https://www.treatwell.de/ort/la-maro"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="gold" size="lg" className="w-full md:w-auto mt-6">
+                AGENDAR AGORA
+              </Button>
+            </a>
           </div>
 
           <div className="relative h-96 lg:h-full min-h-[400px] rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975631091914!2d-46.65441708502205!3d-23.56148098468213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sSão%20Paulo%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.3158872969716!2d13.184537076927768!3d52.52771863565774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8573685b42d33%3A0xf34430f7a1b47597!2sLa%20Maro!5e0!3m2!1sen!2sbr!4v1764633357412!5m2!1sen!2sbr"
               className="absolute inset-0 w-full h-full border-0"
               allowFullScreen
               loading="lazy"
