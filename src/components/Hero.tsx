@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-barbershop.jpg";
+import heroImage from "@/assets/hero.webp";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -25,23 +25,28 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto animate-fade-in-up">
         <h1 className="font-heading text-6xl md:text-8xl font-bold mb-6 tracking-tight">
-          BARBA, CABELO
-          <span className="block text-gold">& BIGODE</span>
+          BART, HAAR
+          <span className="block text-gold">& SCHNURRBART</span>
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto font-light">
-          Tradição, elegância e estilo em um só lugar. 
-          Serviços premium para o homem moderno.
+          Tradition, Eleganz und Stil an einem einzigen Ort. 
+          Hochwertige Dienstleistungen für den modernen Mann.
         </p>
         
-        <Button 
-          variant="hero" 
-          size="xl"
-          onClick={() => scrollToSection('servicos')}
-          className="group"
+        <a 
+          href="https://www.treatwell.de/ort/la-maro" 
+          target="_blank" 
+          rel="noopener noreferrer"
         >
-          AGENDAR AGORA
-        </Button>
+          <Button 
+            variant="hero" 
+            size="xl"
+            className="group"
+          >
+            JETZT TERMIN VEREINBAREN
+          </Button>
+        </a>
 
         {/* Decorative Element */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
