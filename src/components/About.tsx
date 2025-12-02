@@ -7,36 +7,21 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <span className="text-gold font-heading text-sm tracking-[0.3em] uppercase mb-4 block">
-              Sobre Nós
+              Über Uns
             </span>
             <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6">
-              TRADIÇÃO E
-              <span className="block text-gold">EXCELÊNCIA</span>
+              TRADITION UND
+              <span className="block text-gold">EXZELLENZ</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              Somos uma barbearia premium dedicada a oferecer os melhores serviços 
-              de corte, barba e estilo para o homem moderno. 
+              Wir sind ein moderner Barbershop, der sich darauf konzentriert, Männern höchste Qualität in Stil, Präzision und Pflege zu bieten. Unser Anspruch ist es, 
+              jeden Haarschnitt und jede Bartbehandlung zu einem besonderen Erlebnis zu machen – individuell, 
+              sorgfältig ausgeführt und mit echter Liebe zum Detail. 
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Com profissionais altamente qualificados e um ambiente sofisticado, 
-              proporcionamos uma experiência única que combina tradição com as 
-              últimas tendências do mercado.
+              Mit hochqualifizierten Fachleuten und einem anspruchsvollen Ambiente bieten wir ein einzigartiges Erlebnis,
+              das Tradition mit den neuesten Markttrends vereint.
             </p>
-            
-            <div className="grid grid-cols-3 gap-6 mt-10">
-              <div className="text-center">
-                <div className="text-3xl font-heading font-bold text-gold mb-2">10+</div>
-                <div className="text-sm text-muted-foreground">Anos</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-heading font-bold text-gold mb-2">5K+</div>
-                <div className="text-sm text-muted-foreground">Clientes</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-heading font-bold text-gold mb-2">100%</div>
-                <div className="text-sm text-muted-foreground">Satisfação</div>
-              </div>
-            </div>
           </div>
           
           <div className="relative animate-fade-in">
