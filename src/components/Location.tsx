@@ -7,11 +7,11 @@ const Location = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
           <span className="text-gold font-heading text-sm tracking-[0.3em] uppercase mb-4 block">
-            Localização
+            Standort
           </span>
           <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6">
-            VENHA NOS
-            <span className="block text-gold">VISITAR</span>
+            BESUCHEN SIE UNS
+            <span className="block text-gold">BESUCHEN</span>
           </h2>
         </div>
 
@@ -22,7 +22,7 @@ const Location = () => {
                 <MapPin className="w-6 h-6 text-gold" />
               </div>
               <div>
-                <h3 className="font-heading text-xl font-semibold mb-2">Endereço</h3>
+                <h3 className="font-heading text-xl font-semibold mb-2">Adresse</h3>
                 <p className="text-muted-foreground">
                   Seeburger Straße 20 , Spandau, Berlin, 13581<br />
                 </p>
@@ -34,10 +34,10 @@ const Location = () => {
                 <Clock className="w-6 h-6 text-gold" />
               </div>
               <div>
-                <h3 className="font-heading text-xl font-semibold mb-2">Horário</h3>
+                <h3 className="font-heading text-xl font-semibold mb-2">Öffnungszeiten</h3>
                 <p className="text-muted-foreground">
-                  Segunda a Sábado: 9h - 19h<br />
-                  Domingo: Fechado
+                  Montag bis Samstag: 9h - 19h<br />
+                  Sonntag: Geschlossen
                 </p>
               </div>
             </div>
@@ -47,7 +47,7 @@ const Location = () => {
                 <Phone className="w-6 h-6 text-gold" />
               </div>
               <div>
-                <h3 className="font-heading text-xl font-semibold mb-2">Contato</h3>
+                <h3 className="font-heading text-xl font-semibold mb-2">Kontakt</h3>
                 <p className="text-muted-foreground">
                   +49 176 32880002<br />
                 </p>
@@ -60,7 +60,7 @@ const Location = () => {
               rel="noopener noreferrer"
             >
               <Button variant="gold" size="lg" className="w-full md:w-auto mt-6">
-                AGENDAR AGORA
+                JETZT TERMIN BUCHEN
               </Button>
             </a>
           </div>
