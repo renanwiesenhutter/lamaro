@@ -1,4 +1,4 @@
-import aboutImage from "@/assets/test.webp";
+import aboutImage from "@/assets/about-barbershop.webp";
 
 const About = () => {
   return (
