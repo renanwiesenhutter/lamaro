@@ -1,4 +1,4 @@
-import aboutImage from "@/assets/about-barbershop.jpg";
+import aboutImage from "@/assets/test.webp";
 
 const About = () => {
   return (
@@ -29,14 +29,14 @@ const About = () => {
               <img 
                 src={aboutImage} 
                 alt="Profissional barbeiro em ação" 
-                className="w-full h-[600px] object-cover hover-scale"
+                className="w-full h-[600px] object-cover hover-scale relative z-10"
               />
               <div className="absolute inset-0 border-2 border-gold/20 rounded-lg pointer-events-none" />
             </div>
             
             {/* Decorative hexagons */}
-            <div className="absolute -top-6 -left-6 w-24 h-24 border-2 border-gold/30 rotate-45" />
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 border-2 border-gold/20 rotate-12" />
+            <div className="absolute -top-6 -left-6 w-24 h-24 border-2 border-gold/30 rotate-45 z-0" />
+            <div className="absolute -bottom-6 -right-6 w-32 h-32 border-2 border-gold/20 rotate-12 z-0" />
           </div>
         </div>
       </div>
