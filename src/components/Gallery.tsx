@@ -37,10 +37,10 @@ const Gallery = () => {
               <img 
                 src={image.src} 
                 alt={image.alt}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-cover transition-transform duration-500 md:group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <div className="absolute inset-0 border-2 border-gold/0 group-hover:border-gold/50 transition-colors duration-300 rounded-lg" />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 md:group-hover:opacity-100 transition-opacity duration-300"/>
+              <div className="absolute inset-0 border-2 border-gold/0 md:group-hover:border-gold/50 transition-colors duration-300 rounded-lg"/>
             </div>
           ))}
         </div>

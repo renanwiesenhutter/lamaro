@@ -47,11 +47,6 @@ const Hero = () => {
             JETZT TERMIN VEREINBAREN
           </Button>
         </a>
-
-        {/* Decorative Element */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
-          <div className="w-px h-16 bg-gradient-to-b from-gold to-transparent animate-pulse" />
-        </div>
       </div>
     </section>
   );
