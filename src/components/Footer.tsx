@@ -7,7 +7,8 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* LOGO */}
-          <div className="flex items-center">
+          <div className="flex items-center cursor-pointer"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             <img 
               src={logoImage} 
               alt="La Maro Logo"

@@ -7,7 +7,8 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* LOGO */}
-        <div className="flex items-center">
+        <div className="flex items-center cursor-pointer"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
           <img 
             src={logoImage} 
             alt="La Maro Logo"
