@@ -24,7 +24,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto animate-fade-in-up">
-        <h1 className="font-heading text-6xl md:text-8xl font-bold mb-6 tracking-tight">
+        <h1 className="font-heading text-5xl md:text-8xl font-bold mb-6 tracking-tight">
           BART, HAAR
           <span className="block text-gold">& SCHNURRBART</span>
         </h1>
