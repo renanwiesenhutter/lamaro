@@ -16,22 +16,22 @@ const Gallery = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
           <span className="text-gold font-heading text-sm tracking-[0.3em] uppercase mb-4 block">
-            Galeria
+            Galerie
           </span>
           <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6">
-            NOSSO
-            <span className="block text-gold">TRABALHO</span>
+            UNSER
+            <span className="block text-gold">ARBEIT</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Veja alguns dos nossos trabalhos e o ambiente sofisticado da nossa barbearia
+            Sehen Sie sich einige unserer Arbeiten und die elegante Atmosphäre unseres Barbershops an
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 animate-fade-in-up">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center">
           {galleryImages.map((image, index) => (
             <div 
               key={index} 
-              className="relative overflow-hidden rounded-lg group cursor-pointer h-80"
+              className="relative overflow-hidden rounded-lg group cursor-pointer aspect-square max-w-[500px] mx-auto w-full"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <img 
