@@ -29,7 +29,7 @@ const About = () => {
               <img 
                 src={aboutImage} 
                 alt="Profissional barbeiro em ação" 
-                className="w-full h-[600px] object-cover relative z-10"
+                className="w-full h-[400px] md:h-[600px] object-cover relative z-10"
               />
               <div className="absolute inset-0 border-2 border-gold/20 rounded-lg pointer-events-none" />
             </div>
