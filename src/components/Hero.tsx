@@ -77,7 +77,7 @@ const Hero = () => {
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto animate-fade-in-up">
         <h1 className="font-heading text-5xl md:text-8xl font-bold mb-6 tracking-tight">
           BART, HAAR
-          <span className="block text-gold">& SCHNURRBART</span>
+          <span className="block text-gold text-[45px] md:text-8xl">& SCHNURRBART</span>
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto font-light">
